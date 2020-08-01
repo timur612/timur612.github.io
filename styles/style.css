@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+}
+
+.nav_bar a{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #888888;
+}
+
+.main{
+    background-image: url("../img/background.png");
+    background-repeat:no-repeat;
+    background-color: #C9CDD0;
+    justify-content: center;
+    width: auto;
+    height: 100vh;
+}
+.main p{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 17px */
+
+
+    color: #888888;
+}
+.main h1{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 110%;
+    /* or 53px */
+
+
+    color: #000000;
+}
+
+.main_mobile p{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 17px */
+
+
+    color: #888888;
+}
+.main_mobile h1{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 110%;
+    /* or 53px */
+
+
+    color: #000000;
+}
+.btn_stat{
+    background: linear-gradient(255.09deg, #02A3FF 3.7%, #2A84E9 96.23%);
+	border:0;
+	border-radius: 5px;
+	padding: 17px 27px;
+	margin-bottom:20px;
+	color:#fff;
+	white-space:nowrap;
+	font-size: 18px;
+	text-decoration:none;
+}
+.btn_stat:hover{
+    cursor:pointer;
+	background: linear-gradient(255.09deg, #06D6A0 3.7%, #05BC8C 96.23%);
+}
+
+.stats{
+    align-items: center;
+    justify-content: center;
+}
+.stats .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.stats h1 {
+    font-size: 64px;
+    line-height: 110%;
+    font-weight: 600;
+    margin:0;
+    
+    color:#02A3FF;
+    background-color:#02A3FF;
+    background-image: linear-gradient(253.2deg, #02A3FF 3.7%, #2A84E9 96.23%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.stats p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 110%;
+}
+
+@media screen and (max-width: 900px) {
+    .stats h1 {
+        font-size: 52px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .stats h1 {
+        font-size: 64px;
+    }
+}
+
+.howto{
+    
+}
+.howto .inline-button{
+    font-size: 20px;
+    padding: 1vh 2vw;
+    background: linear-gradient(254.31deg, #02A3FF 3.7%, #2A84E9 96.23%);
+}
+.howto .items {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:130px;
+}
+
+.howto .items .item {
+    width:50%;
+    position:relative;
+    margin-bottom:65px;
+}
+
+@media screen and (max-width: 800px) {
+    .howto .items {
+        display:block;
+    } 
+    .howto .items .item {
+        width:100%;
+    }
+}
+
+
+.howto .items .item img, .howto .items .item svg {
+        position:absolute;
+        left:0; top:0;
+        width:65px;
+    }
+    .howto .items .item h3,
+    .howto .items .item p {
+        margin-left:100px;
+        margin-right:130px;
+        margin-top:0;
+    }
+    .howto .items .item h3 {
+        font-weight: bold;
+        font-size: 28px;
+        color:#000;
+    }
+    .howto .items .item p {
+        font-size:14px;
+    }
+
+
+.cards{
+    margin-top: 15vh;
+    margin-left: 10vw;
+}
+.cards h5{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140.62%;
+    /* or 20px */
+
+
+    color: #000000;
+}
+.cards p{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140.62%;
+    /* or 20px */
+
+
+    color: #000000;
+}
+
+.feedback .text p{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140.62%;
+    /* identical to box height, or 17px */
+
+    text-transform: uppercase;
+
+    color: #888888;
+}
+.feedback .text h2{
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 110%;
+/* or 53px */
+
+
+color: #000000;
+}
+
+.feedback {}
+
+	.feedback .wrapper {
+		display:flex;
+		justify-content:center;
+		width:100%;
+	}
+	.feedback .left {
+		width:50%; padding-left:100px;
+	}
+		.feedback .left h1 {
+			margin-top:52px;
+		}
+		.feedback .left ol {
+			padding-inline-start: 20px;
+			line-height: 2;
+		}
+	.feedback .right {
+		width:50%; height:500px;
+	}
+	
+	@media screen and (max-width: 800px) {
+		.feedback .wrapper {
+			display:block;
+		}
+		.feedback .left {
+			width:100%;
+			padding-left:0;
+		} 
+		.feedback .right {
+			width:100%;
+		}
+	}
+	
+	.feedback form {
+		margin-top:64px; 
+		flex-wrap: wrap;
+		justify-content: space-between;
+		display: flex;
+		width: 100%;
+	}
+		.feedback input:not(.button) {
+			border: 1px solid #000000;
+			border-radius: 5px;		
+			font-size: 12px;
+			color: #888888;
+			padding:20px 30px;
+			text-transform:uppercase;
+			margin-bottom:13px;
+			width:calc(50% - 70px);
+		}
+		.feedback input:hover:not(.button) {
+			border: 1px solid #02A3FF;
+		}
+		.feedback input:focus:not(.button) {
+			border: 1px solid #02A3FF;
+			outline: #02A3FF auto 1px;
+		}
+		
+		.feedback input.big {width:100%;}
+
+		.feedback .checkbox {
+			width:50%;
+			margin-left:40px;
+			font-size: 14px;
+			line-height: 110%;
+		}
+			.feedback .checkbox input {
+				padding-left:0;
+				margin-right:10px;
+				margin-left:-40px;
+				margin-top:2px;
+				width:30px; height:30px;
+				vertical-align:top;
+			}
+			.feedback .checkbox span {
+				line-height:1.2;
+				display:inline-block
+			}
+			.feedback .checkbox a {
+				color:inherit;
+			}
+			.feedback .checkbox { 
+				margin-top:30px;
+			}
+			.feedback .button {
+				margin-top:17px;
+			}
+
+.footer {
+        height:64px;
+        line-height:64px;
+        background: #F8F8F8;
+    }
+    .footer img {vertical-align:middle;}
+            
+    .footer p {
+        float: right;
+        font-size: 18px;
+        color: #888888;
+        margin:0;
+    }
